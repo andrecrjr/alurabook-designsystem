@@ -3715,6 +3715,13 @@ ajv@^8.0.0, ajv@^8.9.0:
     require-from-string "^2.0.2"
     uri-js "^4.2.2"
 
+alurabooks-ds-andrecrjr@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/alurabooks-ds-andrecrjr/-/alurabooks-ds-andrecrjr-0.1.1.tgz#dd8ea2c40ec8ce8ff382a16d0d8744ab27a65b44"
+  integrity sha512-UZHPozHJrrgF1cOii1vJgyc2aZE+aCBEeGAX2ihz3gGzT9TllOtloGSIHqS4mc4Qg+ecG5dTdvayvStgqRWDbQ==
+  dependencies:
+    styled-components "^6.0.0-rc.3"
+
 ansi-colors@^4.1.1:
   version "4.1.3"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-4.1.3.tgz#37611340eb2243e70cc604cad35d63270d48781b"
