@@ -19,7 +19,8 @@
     "size": "size-limit",
     "analyze": "size-limit --why",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "release": "auto shipit --base-branch=main"
   },
   "peerDependencies": {
     "react": ">=16"
@@ -63,6 +64,7 @@
     "@types/react": "^18.2.13",
     "@types/react-dom": "^18.2.6",
     "@types/styled-components": "^5.1.26",
+    "auto": "^10.46.0",
     "babel-loader": "^9.1.2",
     "husky": "^8.0.3",
     "react": "^18.2.0",
