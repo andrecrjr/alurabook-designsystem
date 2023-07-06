@@ -15,7 +15,8 @@ export interface AbGroupOptionsProps {
 }
 
 export const SectionStyled = styled.section<{ selected: boolean }>`
-  --color: ${props => (props.selected ? 'white' : '#eb9b00')};
+  --color: ${(props: { selected: boolean }) =>
+    props.selected ? 'white' : '#eb9b00'};
   display: flex;
   width: 200px;
   padding: 8px 0px;
@@ -25,7 +26,7 @@ export const SectionStyled = styled.section<{ selected: boolean }>`
   font-family: sans-serif;
   border: 1px solid #eb9b00;
   cursor: pointer;
-  background: ${props =>
+  background: ${(props: { selected: boolean }) =>
     !props.selected
       ? 'rgb(255, 255, 255)'
       : 'linear-gradient(160deg, #002F52 0%, #326589 100%)'};
@@ -48,7 +49,8 @@ export const SectionStyled = styled.section<{ selected: boolean }>`
     line-height: normal;
   }
   footer {
-    color: ${props => (!props.selected ? 'rgba(0, 0, 0, 0.54)' : 'white')};
+    color: ${(props: { selected: boolean }) =>
+      !props.selected ? 'rgba(0, 0, 0, 0.54)' : 'white'};
     text-align: center;
     font-size: 12px;
     font-style: normal;
@@ -78,7 +80,7 @@ export function AbOptionGroup({
       {options.map(option => (
         <SectionStyled
           key={option.id}
-          selected={select?.id === option.id}
+          selected={!!select ? select.id === option.id : false}
           onClick={() => selectButton(option)}
         >
           <h2>{option.title}</h2>
