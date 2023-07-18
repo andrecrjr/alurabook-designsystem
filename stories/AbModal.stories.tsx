@@ -1,6 +1,5 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { ABPr } from '../src';
 import AbModal from '../src/Components/AbModal';
 
 export default {
