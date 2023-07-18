@@ -1,3 +1,16 @@
+# v0.3.2 (Tue Jul 18 2023)
+
+#### ⚠️ Pushed to `main`
+
+- - abmodal done ([@andrecrjr](https://github.com/andrecrjr))
+- - inputt quantity ([@andrecrjr](https://github.com/andrecrjr))
+
+#### Authors: 1
+
+- André Carlos Jr. ([@andrecrjr](https://github.com/andrecrjr))
+
+---
+
 # v0.3.1 (Mon Jul 10 2023)
 
 #### ⚠️ Pushed to `main`
