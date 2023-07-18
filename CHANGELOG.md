@@ -1,3 +1,15 @@
+# v0.3.3 (Tue Jul 18 2023)
+
+#### ⚠️ Pushed to `main`
+
+- - fix problem ([@andrecrjr](https://github.com/andrecrjr))
+
+#### Authors: 1
+
+- André Carlos Jr. ([@andrecrjr](https://github.com/andrecrjr))
+
+---
+
 # v0.3.2 (Tue Jul 18 2023)
 
 #### ⚠️ Pushed to `main`
